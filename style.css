@@ -2,3 +2,6 @@ header {
     background-color: rgba(207, 44, 207, 0.4);
     color: rgb(243, 238, 238);
 }
+.cabeçalho-imagem{
+    width: 10%;
+}
