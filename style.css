@@ -1,7 +1,13 @@
-header { 
+.cabeçalho { 
     background-color: rgba(207, 44, 207, 0.4);
     color: rgb(243, 238, 238);
+    display: flex;
+    justify-content:space-around ;
 }
 .cabeçalho-imagem{
     width: 10%;
+}
+.cabeçalho-lista-item{
+    display:inline-block ;
+    margin: 0 16px;
 }
