@@ -17,7 +17,7 @@ body{
 }
 
 .cabeçalho-imagem{
-    width: 9%;
+    width: 15%;
 }
 
 .cabeçalho-lista-item {
@@ -30,7 +30,7 @@ body{
     width: 25%;
 }
 
-.escola{
+.Escola{
     background-image: linear-gradient(#424E61,#4EBFE9);
     color: white;
     display: flex;
