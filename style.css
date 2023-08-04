@@ -5,19 +5,20 @@
 
 body{
     font-family: 'Poppins', sans-serif;
+    color: #000;
 }
 
 .cabeçalho { 
-    background-color: #424E61;
-    color: white;
+    background-color: #fdfdfd;
+    color: rgb(87, 76, 76);
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 24px 0;
+    padding: 10px 0;
 }
 
 .cabeçalho-imagem{
-    width: 15%;
+    width: 10%;
 }
 
 .cabeçalho-lista-item {
@@ -27,12 +28,12 @@ body{
 }
 
 .escola-imagem{
-    width: 25%;
+    width: 20%;
 }
 
 .Escola{
-    background-image: linear-gradient(#424E61,#4EBFE9);
-    color: white;
+    background-image: linear-gradient(#ffffff,#5eecb1);
+    color: rgb(31, 27, 27);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,7 +41,7 @@ body{
 }
 
 .escola-div-conteudo{
-    width: 35%;
+    width: 40%;
 }
 
 .escola-titulo{
@@ -52,17 +53,68 @@ body{
 }
 
 .estudante-icone{
-    width: 24px;
+    width: 4px;
+    background-color: #5eecb1;
 }
 
 .estudante-div{
    text-align: center;
+   background-color: #5eecb1;
 }
-.estudante-titulo{
+.Entre-em-contato-titulo{
     text-align: center;
     padding: 50px 0;
+    background-color: #5eecb1;
 }
-.estudante-todos{
+
+.Entre-em-contato-todos{
     display: grid;
-    grid-template-columns:  20% 20% 20% 20% 20%;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+.rodape{
+   background-color: #5eecb1;
+    text-align: center;
+    height: 150px;
+}
+.rodape-imagem{
+    background-color: #5eecb1;
+    height: 70px;
+    padding: 12px 0;
+}
+.Whatsapp-link{
+    background-color: #5eecb1;
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 24px;
+
+}
+
+.whatsapp-info{
+    height: 30px;
+
+}
+
+
+
+
+
+
+.titulo-final{
+    background-color: #5eecb1;
+
+    text-align: center;
+}
+.texto-final{
+    background-color: #5eecb1;
+  text-align: center;
+  padding: 20px;
+}
+.logo-do-colegio{
+    background-color: #5eecb1;
+    align-items: center;
+   
+}
+.ultimo-link{
+    background-color: #5eecb1;
+    text-align: center;
 }
